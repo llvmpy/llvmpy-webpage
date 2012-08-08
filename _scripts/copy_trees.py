@@ -32,7 +32,7 @@ out_dir = '_build/html'
 
 # Prefix of directories to skip (set when sphinx-quickstart was run)
 skip_prefix = '_'
-skip_extensions = set(['.rst'])
+skip_extensions = set(['.rst', '.md', '.bat'])
 # Other directory trees to skip
 skip_trees = set(['.git','sphinxext', 'gh-pages', 'logos', 'themes'])
 
